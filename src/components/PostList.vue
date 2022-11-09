@@ -26,7 +26,7 @@
       </div>
 
       <div class="post-date text-faded">
-        {{ post.publishedAt }}
+        <app-date :timestamp="post.publishedAt" />
       </div>
     </div>
   </div>
